@@ -10,7 +10,7 @@ contract DappToken {
     // Read total number of Token
     uint256 public totalSupply;
 
-    constructor DappToken() public {
+    constructor() DappToken() public {
         totalSupply = 1000000;
     }
 }   
